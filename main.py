@@ -1,8 +1,6 @@
 from tkinter import *
 from tkinter.ttk import *
 
-
-
 def press_button(num):
     global test_equation
     test_equation += str(num)
