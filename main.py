@@ -44,10 +44,6 @@ window.resizable(width=True, height=True)
 
 test_equation = ""
 test_equation_label = StringVar()
-for i in range(6):
-    window.grid_rowconfigure(i, weight=1)
-for i in range(4):
-    window.grid_columnconfigure(i, weight=1)
 
 label = Label(window,textvariable=test_equation_label,font="arial",
               foreground='green',
